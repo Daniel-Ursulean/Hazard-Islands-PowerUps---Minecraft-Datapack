@@ -1,0 +1,3 @@
+item replace entity @s weapon.mainhand with blaze_powder[max_stack_size=2,item_name={"color":"#FF5D0D","text":"Evolved Fireball"},lore=[{"color":"white","italic":false,"text":"Shoot a fireball with a bigger explosion"},{"color":"yellow","italic":false,"text":"Cooldown: 25s"}],custom_data={EvolvedFireball:1b},consumable={consume_seconds:2147483647},enchantment_glint_override=true] 1
+playsound ui.toast.challenge_complete master @a ~ ~ ~ 1.0 2
+particle flame ~ ~1 ~ 0.2 0.2 0.2 0.8 30 normal

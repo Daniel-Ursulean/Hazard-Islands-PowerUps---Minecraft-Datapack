@@ -1,0 +1,3 @@
+item replace entity @s weapon.mainhand with blue_dye[max_stack_size=2,item_name={"color":"#000094","text":"Evolved Storm"},lore=[{"color":"white","italic":false,"text":"Summon a 15 blocks radius storm, lasting"},{"color":"white","italic":false,"text":"10 seconds that strikes twice all the"},{"color":"white","italic":false,"text":"players caught by the storm (aside from"},{"color":"white","italic":false,"text":"you)"},{"color":"yellow","italic":false,"text":"Cooldown: 40s"}],custom_data={EvolvedStorm:1b},consumable={consume_seconds:2147483647},enchantment_glint_override=true] 1 
+playsound ui.toast.challenge_complete master @a ~ ~ ~ 1.0 2
+particle rain ~ ~1 ~ 0.5 0.5 0.5 1 60 normal

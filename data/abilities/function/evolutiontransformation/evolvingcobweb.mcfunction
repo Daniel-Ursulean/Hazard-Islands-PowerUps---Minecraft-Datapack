@@ -1,0 +1,3 @@
+item replace entity @s weapon.mainhand with sugar[max_stack_size=2,item_name={"color":"#FFFFFF","text":"Evolved Cobweb"},lore=[{"color":"white","italic":false,"text":"Shoot a web that creates a giant cobweb"},{"color":"white","italic":false,"text":"and damages on impact"},{"color":"yellow","italic":false,"text":"Cooldown: 25s"}],custom_data={EvolvedCobweb:1b},consumable={consume_seconds:2147483647},enchantment_glint_override=true] 1
+playsound ui.toast.challenge_complete master @a ~ ~ ~ 1.0 2
+particle block{block_state:cobweb} ~ ~1 ~ 0.5 0.5 0.5 0.1 20 normal

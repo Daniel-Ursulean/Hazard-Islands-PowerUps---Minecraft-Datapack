@@ -1,0 +1,278 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "minecraft:smooth_sandstone",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 3,
+                "max": 5
+              }
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:can_place_on": [
+                  {
+                    "blocks": "#abilities:allblocks"
+                  }
+                ],
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "can_place_on"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "minecraft:wind_charge",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "#FFFF85",
+                  "italic": false,
+                  "text": "Wind Charge"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "minecraft:golden_sword",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "minecraft:knockback": 2
+                }
+              }
+            },
+            {
+              "function": "set_damage",
+              "damage": 0.01
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "#FFFF85",
+                  "italic": false,
+                  "text": "Knockback Sword"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 15,
+          "name": "minecraft:golden_sword",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_damage",
+              "damage": 0.01
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "#FFFF85",
+                  "italic": false,
+                  "text": "Sword"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "minecraft:golden_sword",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "minecraft:fire_aspect": 1
+                }
+              }
+            },
+            {
+              "function": "set_damage",
+              "damage": 0.01
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "#FFFF85",
+                  "italic": false,
+                  "text": "Fire Sword"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:charged_projectiles": [
+                  {
+                    "id": "minecraft:arrow",
+                    "count": 1,
+                    "components": {
+                      "minecraft:intangible_projectile": {}
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "function": "set_damage",
+              "damage": 0
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "#FFFF85",
+                  "italic": false,
+                  "text": "Loaded Crossbow"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "minecraft:golden_apple",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "#FFFF85",
+                  "italic": false,
+                  "text": "Golden Apple"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 15,
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:healing",
+                  "custom_color": 16777093
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "#FFFF85",
+                  "italic": false,
+                  "text": "Heal potion"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "minecraft:chorus_fruit",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 0.2,
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:teleport_randomly",
+                      "diameter": 20
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "#FFFF85",
+                  "italic": false,
+                  "text": "Random teleporter"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

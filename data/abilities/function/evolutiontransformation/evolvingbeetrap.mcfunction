@@ -1,0 +1,3 @@
+item replace entity @s weapon.mainhand with honeycomb[max_stack_size=2,item_name={"color":"#FFC300","text":"Evolved Beetrap"},lore=[{"color":"white","italic":false,"text":"Shoot a bee that replaces the blocks"},{"color":"white","italic":false,"text":"with honey on impact and summons 5"},{"color":"white","italic":false,"text":"strong bees"},{"color":"yellow","italic":false,"text":"Cooldown: 40s"}],custom_data={EvolvedBeeTrap:1b},consumable={consume_seconds:2147483647},enchantment_glint_override=true] 1
+playsound ui.toast.challenge_complete master @a ~ ~ ~ 1.0 2
+particle landing_honey ~ ~1 ~ 0.2 0.2 0.2 1 30 normal

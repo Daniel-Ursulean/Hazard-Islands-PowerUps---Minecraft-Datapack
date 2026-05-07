@@ -1,0 +1,3 @@
+item replace entity @s weapon.mainhand with gold_nugget[max_stack_size=2,item_name={"color":"#FFF705","text":"Evolved Laser"},lore=[{"color":"white","italic":false,"text":"Shoot a laser which damages and explodes"},{"color":"white","italic":false,"text":"on impact, you can charge up to 4 lasers"},{"color":"yellow","italic":false,"text":"Cooldown: 15s/laser"}],custom_data={EvolvedLaser:1b},consumable={consume_seconds:2147483647},enchantment_glint_override=true] 1
+playsound ui.toast.challenge_complete master @a ~ ~ ~ 1.0 2
+particle dust{color:[1.000, 0.969, 0.020],scale:1} ~ ~1 ~ 0.5 0.5 0.5 1 60 normal

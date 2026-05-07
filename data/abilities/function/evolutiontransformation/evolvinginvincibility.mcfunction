@@ -1,0 +1,3 @@
+item replace entity @s weapon.mainhand with iron_ingot[max_stack_size=2,item_name={"color":"#545454","text":"Evolved Invincibility"},lore=[{"color":"white","italic":false,"text":"Become invincible and knockback"},{"color":"white","italic":false,"text":"resistant for 5 seconds, heal 4 hearts"},{"color":"white","italic":false,"text":"and shoot slowing arrows around you"},{"color":"yellow","italic":false,"text":"Cooldown: 30s"}],custom_data={EvolvedInvincibility:1b},consumable={consume_seconds:2147483647},enchantment_glint_override=true] 1
+playsound ui.toast.challenge_complete master @a ~ ~ ~ 1.0 2
+particle block{block_state:"minecraft:iron_block"} ~ ~1 ~ 1 1 1 1 50 normal

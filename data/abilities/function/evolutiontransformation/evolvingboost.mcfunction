@@ -1,0 +1,3 @@
+item replace entity @s weapon.mainhand with diamond[max_stack_size=2,item_name={"color":"#0392FF","text":"Evolved Boost"},lore=[{"color":"white","italic":false,"text":"Get 6 seconds of speed and jump boost"},{"color":"white","italic":false,"text":"and leave a trail of fire behind"},{"color":"yellow","italic":false,"text":"Cooldown: 35s"}],custom_data={EvolvedBoost:1b},consumable={consume_seconds:2147483647},enchantment_glint_override=true] 1
+playsound ui.toast.challenge_complete master @a ~ ~ ~ 1.0 2
+particle enchanted_hit ~ ~.6 ~ 0.4 0.8 0.5 0.3 20 normal

@@ -1,0 +1,3 @@
+item replace entity @s weapon.mainhand with netherite_scrap[max_stack_size=2,item_name={"color":"#7D443D","text":"Evolved Destroyer"},lore=[{"color":"white","italic":false,"text":"Break everything you look at for 3 seconds"},{"color":"yellow","italic":false,"text":"Cooldown: 60s"}],custom_data={EvolvedDestroyer:1b},consumable={consume_seconds:2147483647},enchantment_glint_override=true] 1
+playsound ui.toast.challenge_complete master @a ~ ~ ~ 1.0 2
+particle block{block_state:ancient_debris} ~ ~1 ~ 0.5 0.5 0.5 0 20

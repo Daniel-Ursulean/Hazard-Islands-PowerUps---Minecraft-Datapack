@@ -1,0 +1,3 @@
+item replace entity @s weapon.mainhand with gray_dye[max_stack_size=2,item_name={"color":"#8F8F8F","text":"Evolved WindWave"},lore=[{"color":"white","italic":false,"text":"Shoot a large wave of wind which takes"},{"color":"white","italic":false,"text":"away players hit by it"},{"color":"yellow","italic":false,"text":"Cooldown: 30s"}],custom_data={EvolvedWindWave:1b},consumable={consume_seconds:2147483647},enchantment_glint_override=true] 1
+playsound ui.toast.challenge_complete master @a ~ ~ ~ 1.0 2
+particle cloud ~ ~1 ~ 0.5 0.5 0.5 0.1 20 normal

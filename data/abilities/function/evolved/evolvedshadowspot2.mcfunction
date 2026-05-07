@@ -1,0 +1,2 @@
+summon area_effect_cloud ~ ~1 ~ {Particle:{type:"squid_ink"},ReapplicationDelay:10,Radius:7f,RadiusPerTick:0.05f,Duration:200,WaitTime:5,potion_contents:{custom_effects:[{id:"minecraft:wither",amplifier:3,duration:20,show_particles:0b},{id:"minecraft:slowness",amplifier:1,duration:40,show_particles:0b},{id:"minecraft:blindness",amplifier:1,duration:40,show_particles:0b}]}}
+kill @s

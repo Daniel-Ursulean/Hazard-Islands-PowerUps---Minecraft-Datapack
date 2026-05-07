@@ -1,0 +1,3 @@
+item replace entity @s weapon.mainhand with arrow[max_stack_size=2,item_name={"color":"#994B25","text":"Evolved Arrow"},lore=[{"color":"white","italic":false,"text":"Shoot 5 arrows"},{"color":"yellow","italic":false,"text":"Cooldown: 8s"}],custom_data={EvolvedArrow:1b},consumable={consume_seconds:2147483647},enchantment_glint_override=true] 1
+playsound ui.toast.challenge_complete master @a ~ ~ ~ 1.0 2
+particle crit ~ ~1 ~ 0.8 0.8 0.8 0.01 40 normal

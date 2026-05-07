@@ -1,0 +1,3 @@
+item replace entity @s weapon.mainhand with shulker_shell[max_stack_size=2,item_name={"color":"#FF54D7","text":"Evolved Gravity"},lore=[{"color":"white","italic":false,"text":"Create a 7 blocks radius of 7 seconds"},{"color":"white","italic":false,"text":"where enemies get launched in the air"},{"color":"white","italic":false,"text":"while also having a rotating"},{"color":"white","italic":false,"text":"damaging-destroying beam around you"},{"color":"yellow","italic":false,"text":"Cooldown: 40s"}],custom_data={EvolvedGravity:1b},consumable={consume_seconds:2147483647},enchantment_glint_override=true] 1
+playsound ui.toast.challenge_complete master @a ~ ~ ~ 1.0 2
+particle crimson_spore ~ ~1 ~ 0.2 0.2 0.2 1 40 normal

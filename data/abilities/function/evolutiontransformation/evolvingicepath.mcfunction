@@ -1,0 +1,3 @@
+item replace entity @s weapon.mainhand with prismarine_crystals[max_stack_size=2,item_name={"color":"#54EEFF","text":"Evolved IcePath"},lore=[{"color":"white","italic":false,"text":"Become faster and create more ice under"},{"color":"white","italic":false,"text":"your feet for the next 10 seconds (melt"},{"color":"white","italic":false,"text":"the ice by crouching). Create powder snow"},{"color":"white","italic":false,"text":"for the players in a 3 block radius"},{"color":"yellow","italic":false,"text":"Cooldown: 50s"}],custom_data={EvolvedIcePath:1b},consumable={consume_seconds:2147483647},enchantment_glint_override=true] 1
+playsound ui.toast.challenge_complete master @a ~ ~ ~ 1.0 2
+particle block{block_state:ice} ~ ~ ~ 1 1 1 1 60 normal

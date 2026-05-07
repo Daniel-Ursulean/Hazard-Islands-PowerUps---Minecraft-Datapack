@@ -1,0 +1,3 @@
+item replace entity @s weapon.mainhand with clay_ball[max_stack_size=2,item_name={"color":"#E0E0E0","text":"Evolved Dome"},lore=[{"color":"white","italic":false,"text":"For the next 2 seconds create domes of"},{"color":"white","italic":false,"text":"glass around you, you can break glass holding"},{"color":"white","italic":false,"text":"the item"},{"color":"yellow","italic":false,"text":"Cooldown: 50s"}],custom_data={EvolvedDome:1b},consumable={consume_seconds:2147483647},enchantment_glint_override=true,tool={default_mining_speed:1.0,rules:[{speed:3.0,blocks:"glass"}]},can_break=[{blocks:"glass"}]] 1
+playsound ui.toast.challenge_complete master @a ~ ~ ~ 1.0 2
+particle flash ~ ~1 ~ 1 1 1 1 5 normal

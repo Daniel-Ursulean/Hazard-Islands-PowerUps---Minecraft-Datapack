@@ -1,0 +1,1 @@
+execute as @a[distance=..1.5,gamemode=!spectator] unless score @s ID = @n[distance=..0.001,type=armor_stand,tag=EvolvedTrap] ID run tag @n[distance=..0.001,type=armor_stand,tag=EvolvedTrap] add EvolvedTrapActivated

@@ -1,0 +1,3 @@
+item replace entity @s weapon.mainhand with fermented_spider_eye[max_stack_size=2,item_name={"color":"#7A3280","text":"Evolved PoisonRun"},lore=[{"color":"white","italic":false,"text":"Gives speed for 8 seconds while also"},{"color":"white","italic":false,"text":"damaging, slowing and blinding enemies"},{"color":"white","italic":false,"text":"in a 3 blocks radius"},{"color":"yellow","italic":false,"text":"Cooldown: 35s"}],custom_data={EvolvedPoisonRun:1b},consumable={consume_seconds:2147483647},enchantment_glint_override=true] 1
+playsound ui.toast.challenge_complete master @a ~ ~ ~ 1.0 2
+particle witch ~ ~1 ~ 0.8 0.8 0.8 0.01 40 normal

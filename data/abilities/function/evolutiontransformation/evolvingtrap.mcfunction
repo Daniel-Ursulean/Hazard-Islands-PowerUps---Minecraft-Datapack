@@ -1,0 +1,3 @@
+item replace entity @s weapon.mainhand with cyan_dye[max_stack_size=2,item_name={"color":"#24A676","text":"Evolved Trap"},lore=[{"color":"white","italic":false,"text":"Place an invisible trap which explodes"},{"color":"white","italic":false,"text":"half a second after another player"},{"color":"white","italic":false,"text":"steps on it"},{"color":"yellow","italic":false,"text":"Cooldown: 15s"}],custom_data={EvolvedTrap:1b},consumable={consume_seconds:2147483647},enchantment_glint_override=true] 1
+playsound ui.toast.challenge_complete master @a ~ ~ ~ 1.0 2
+particle falling_dust{block_state:warped_planks} ~ ~1 ~ 0.5 0.5 0.5 0 40

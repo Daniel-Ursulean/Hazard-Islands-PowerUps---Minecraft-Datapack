@@ -1,0 +1,3 @@
+item replace entity @s weapon.mainhand with diamond[max_stack_size=2,item_name={"color":"#FF6B6B","italic":false,"text":"Evolved Firework"},lore=[{"color":"white","italic":false,"text":"Shoot a big firework"},{"color":"yellow","italic":false,"text":"Cooldown: 15s"}],custom_data={EvolvedFirework:1b},consumable={consume_seconds:2147483647},item_model="minecraft:firework_rocket",enchantment_glint_override=true] 1
+playsound ui.toast.challenge_complete master @a ~ ~ ~ 1.0 2
+particle firework ~ ~.5 ~ 1 1 1 0.3 30 normal

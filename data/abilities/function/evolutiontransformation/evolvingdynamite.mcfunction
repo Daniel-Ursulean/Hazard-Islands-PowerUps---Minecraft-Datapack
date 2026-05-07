@@ -1,0 +1,3 @@
+item replace entity @s weapon.mainhand with red_dye[max_stack_size=2,item_name={"color":"#B82525","text":"Evolved Dynamite"},lore=[{"color":"white","italic":false,"text":"Throw 3 TNTs"},{"color":"yellow","italic":false,"text":"Cooldown: 25s"}],custom_data={EvolvedDynamite:1b},consumable={consume_seconds:2147483647},enchantment_glint_override=true] 1
+playsound ui.toast.challenge_complete master @a ~ ~ ~ 1.0 2
+particle smoke ~ ~1 ~ 0.2 0.2 0.2 1 20 normal

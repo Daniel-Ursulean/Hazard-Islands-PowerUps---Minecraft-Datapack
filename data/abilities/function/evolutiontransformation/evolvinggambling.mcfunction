@@ -1,0 +1,3 @@
+item replace entity @s weapon.mainhand with pumpkin_seeds[max_stack_size=2,item_name={"color":"#FFFF85","text":"Evolved Gambling"},lore=[{"color":"white","italic":false,"text":"Get a better random item, with a bigger"},{"color":"white","italic":false,"text":"chance of getting another power"},{"color":"yellow","italic":false,"text":"Cooldown: 40s"}],custom_data={EvolvedGambling:1b},consumable={consume_seconds:2147483647},enchantment_glint_override=true] 1
+playsound ui.toast.challenge_complete master @a ~ ~ ~ 1.0 2
+particle enchant ~ ~.6 ~ 0.4 0.5 0.5 1 100 normal

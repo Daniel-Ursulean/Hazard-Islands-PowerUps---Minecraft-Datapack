@@ -1,0 +1,3 @@
+item replace entity @s weapon.mainhand with feather[max_stack_size=2,item_name={"color":"#2BB6E0","text":"Evolved Dash"},lore=[{"color":"white","italic":false,"text":"Dash forward 8 blocks, break blocks in"},{"color":"white","italic":false,"text":"front of you and make little explosions"},{"color":"white","italic":false,"text":"while dashing"},{"color":"yellow","italic":false,"text":"Cooldown: 25s"}],custom_data={EvolvedDash:1b},consumable={consume_seconds:2147483647},enchantment_glint_override=true] 1
+playsound ui.toast.challenge_complete master @a ~ ~ ~ 1.0 2
+particle dust{color:[0.169,0.714,0.878],scale:1} ~ ~1 ~ 1 1 1 1 20 normal

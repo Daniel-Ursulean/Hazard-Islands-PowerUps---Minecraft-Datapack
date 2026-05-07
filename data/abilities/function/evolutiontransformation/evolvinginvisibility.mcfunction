@@ -1,0 +1,3 @@
+item replace entity @s weapon.mainhand with light_gray_dye[max_stack_size=2,item_name={"color":"#B0B0B0","text":"Evolved Invisibility"},lore=[{"color":"white","italic":false,"text":"It makes you invisable for 9 seconds"},{"color":"white","italic":false,"text":"while also showing the players around"},{"color":"white","italic":false,"text":"you in a 20 radius for 9 seconds"},{"color":"yellow","italic":false,"text":"Cooldown: 25s"}],custom_data={EvolvedInvisibility:1b},consumable={consume_seconds:2147483647},enchantment_glint_override=true] 1
+playsound ui.toast.challenge_complete master @a ~ ~ ~ 1.0 2
+particle campfire_cosy_smoke ~ ~1 ~ 0.3 0.3 0.3 0.4 15 normal

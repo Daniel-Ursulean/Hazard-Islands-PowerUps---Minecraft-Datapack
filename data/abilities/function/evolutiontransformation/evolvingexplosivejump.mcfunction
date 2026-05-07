@@ -1,0 +1,3 @@
+item replace entity @s weapon.mainhand with gunpowder[max_stack_size=2,item_name={"color":"#658F6F","text":"Evolved ExplosiveJump"},lore=[{"color":"white","italic":false,"text":"Create a bigger explosion, launch"},{"color":"white","italic":false,"text":"yourself in the air and create an"},{"color":"white","italic":false,"text":"earthquake on impact"},{"color":"yellow","italic":false,"text":"Cooldown: 30s"}],custom_data={EvolvedExplosiveJump:1b},consumable={consume_seconds:2147483647},enchantment_glint_override=true] 1
+playsound ui.toast.challenge_complete master @a ~ ~ ~ 1.0 2
+particle explosion ~ ~1 ~ 0.8 0.8 0.8 0.01 3 normal

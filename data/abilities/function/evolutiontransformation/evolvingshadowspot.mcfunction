@@ -1,0 +1,3 @@
+item replace entity @s weapon.mainhand with coal[max_stack_size=2,item_name={"color":"#000000","text":"Evolved ShadowSpot"},lore=[{"color":"white","italic":false,"text":"Throw a smoke bomb which creates a 7"},{"color":"white","italic":false,"text":"blocks radius circle that damages,"},{"color":"white","italic":false,"text":"blinds and slows the ones caught in it,"},{"color":"white","italic":false,"text":"the area grows over time"},{"color":"yellow","italic":false,"text":"Cooldown: 30s"}],custom_data={EvolvedShadowSpot:1b},consumable={consume_seconds:2147483647},enchantment_glint_override=true] 1
+playsound ui.toast.challenge_complete master @a ~ ~ ~ 1.0 2
+particle squid_ink ~ ~1 ~ 0.5 0.5 0.5 0 15 normal

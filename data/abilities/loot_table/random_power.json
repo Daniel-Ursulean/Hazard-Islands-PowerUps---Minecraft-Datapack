@@ -1,0 +1,1413 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:arrow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 2147483647
+                },
+                "minecraft:custom_data": {
+                  "Arrow": true
+                },
+                "minecraft:max_stack_size": 2
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "#994B25",
+                  "text": "Arrow"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "Shoot an arrow"
+                },
+                {
+                  "color": "yellow",
+                  "italic": false,
+                  "text": "Cooldown: 5s"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:light_gray_dye",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:max_stack_size": 2,
+                "minecraft:custom_data": {
+                  "Invisibility": true
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 2147483647
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "#B0B0B0",
+                  "text": "Invisibility"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "It makes you invisibale for 7 second"
+                },
+                {
+                  "color": "yellow",
+                  "italic": false,
+                  "text": "Cooldown: 20s"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:blaze_powder",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:max_stack_size": 2,
+                "minecraft:custom_data": {
+                  "Fireball": true
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 2147483647
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "#FF5D0D",
+                  "text": "Fireball"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "Shoot an explosive fireball"
+                },
+                {
+                  "color": "yellow",
+                  "italic": false,
+                  "text": "Cooldown: 15s"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:fermented_spider_eye",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:max_stack_size": 2,
+                "minecraft:custom_data": {
+                  "PoisonRun": true
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 2147483647
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "#7A3280",
+                  "text": "PoisonRun"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "Gives speed for 8 seconds while also"
+                },
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "damaging enemies in a 3 block radius"
+                },
+                {
+                  "color": "yellow",
+                  "italic": false,
+                  "text": "Cooldown: 30s"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:gunpowder",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:max_stack_size": 2,
+                "minecraft:custom_data": {
+                  "ExplosiveJump": true
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 2147483647
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "#658F6F",
+                  "text": "ExplosiveJump"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "Create an explosion and launch yourself"
+                },
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "into the air"
+                },
+                {
+                  "color": "yellow",
+                  "italic": false,
+                  "text": "Cooldown: 20s"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:feather",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:max_stack_size": 2,
+                "minecraft:custom_data": {
+                  "Dash": true
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 2147483647
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "#2BB6E0",
+                  "text": "Dash"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "Dash forward 8 blocks"
+                },
+                {
+                  "color": "yellow",
+                  "italic": false,
+                  "text": "Cooldown: 10s"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:max_stack_size": 2,
+                "minecraft:custom_data": {
+                  "Invincibility": true
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 2147483647
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "#545454",
+                  "text": "Invincibility"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "Become invincible and knockback"
+                },
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "resistant for 5 seconds"
+                },
+                {
+                  "color": "yellow",
+                  "italic": false,
+                  "text": "Cooldown: 20s"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:purple_dye",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:max_stack_size": 2,
+                "minecraft:custom_data": {
+                  "Teleportation": true
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 2147483647
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "#802BFF",
+                  "text": "Teleportation"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "Choose a location to teleported back"
+                },
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "to it later"
+                },
+                {
+                  "color": "yellow",
+                  "italic": false,
+                  "text": "Cooldown: 20s"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:glistering_melon_slice",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:max_stack_size": 2,
+                "minecraft:custom_data": {
+                  "Heal": true
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 2147483647
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "#FF0000",
+                  "text": "Heal"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "Regenerate 5 hearts"
+                },
+                {
+                  "color": "yellow",
+                  "italic": false,
+                  "text": "Cooldown: 30s"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:shulker_shell",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:max_stack_size": 2,
+                "minecraft:custom_data": {
+                  "Gravity": true
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 2147483647
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "#FF54D7",
+                  "text": "Gravity"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "Create a 7 blocks radius of 7 seconds"
+                },
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "where enemies get lunched in the air"
+                },
+                {
+                  "color": "yellow",
+                  "italic": false,
+                  "text": "Cooldown: 30s"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:red_dye",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:max_stack_size": 2,
+                "minecraft:custom_data": {
+                  "Dynamite": true
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 2147483647
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "#B82525",
+                  "text": "Dynamite"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "Throw a TNT"
+                },
+                {
+                  "color": "yellow",
+                  "italic": false,
+                  "text": "Cooldown: 10s"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:sugar",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:max_stack_size": 2,
+                "minecraft:custom_data": {
+                  "Cobweb": true
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 2147483647
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "#FFFFFF",
+                  "text": "Cobweb"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "Throw 5 cobwebs dealing damage when"
+                },
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "reaching the ground"
+                },
+                {
+                  "color": "yellow",
+                  "italic": false,
+                  "text": "Cooldown: 10s"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:turtle_scute",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:max_stack_size": 2,
+                "minecraft:custom_data": {
+                  "Wall": true
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 2147483647
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "#36DE14",
+                  "text": "Wall"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "Create a wall in front of you"
+                },
+                {
+                  "color": "yellow",
+                  "italic": false,
+                  "text": "Cooldown: 10s"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:prismarine_crystals",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:max_stack_size": 2,
+                "minecraft:custom_data": {
+                  "IcePath": true
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 2147483647
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "#54EEFF",
+                  "text": "IcePath"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "Create ice under your feet for the next"
+                },
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "10 seconds (melt the ice by crouching)"
+                },
+                {
+                  "color": "yellow",
+                  "italic": false,
+                  "text": "Cooldown: 35s"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:gold_nugget",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:max_stack_size": 2,
+                "minecraft:custom_data": {
+                  "Laser": true
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 2147483647
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "#FFF705",
+                  "text": "Laser"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "Shoot a laser which damages and breaks"
+                },
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "blocks on impact, you can charge up to"
+                },
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "3 lasers"
+                },
+                {
+                  "color": "yellow",
+                  "italic": false,
+                  "text": "Cooldown: 9s/laser"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:coal",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:max_stack_size": 2,
+                "minecraft:custom_data": {
+                  "ShadowSpot": true
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 2147483647
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "#000000",
+                  "text": "ShadowSpot"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "Throw a smoke bomb which creates a 7"
+                },
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "blocks radius circle that damages,"
+                },
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "blinds and slows the ones caught in it,"
+                },
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "the area gets smaller over time"
+                },
+                {
+                  "color": "yellow",
+                  "italic": false,
+                  "text": "Cooldown: 15s"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:blue_dye",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:max_stack_size": 2,
+                "minecraft:custom_data": {
+                  "Storm": true
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 2147483647
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "#000094",
+                  "text": "Storm"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "Summon a 15 blocks radius storm, lasting"
+                },
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "10 seconds that strikes twice a random"
+                },
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "player caught by the storm (aside from"
+                },
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "you)"
+                },
+                {
+                  "color": "yellow",
+                  "italic": false,
+                  "text": "Cooldown: 35s"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:gray_dye",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:max_stack_size": 2,
+                "minecraft:custom_data": {
+                  "WindWave": true
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 2147483647
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "#8F8F8F",
+                  "text": "WindWave"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "Shoot a wave of wind which takes away"
+                },
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "players hit by it"
+                },
+                {
+                  "color": "yellow",
+                  "italic": false,
+                  "text": "Cooldown: 20s"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:netherite_scrap",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:max_stack_size": 2,
+                "minecraft:custom_data": {
+                  "Destroyer": true
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 2147483647
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "#7D443D",
+                  "text": "Destroyer"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "Break the blocks in front of you"
+                },
+                {
+                  "color": "yellow",
+                  "italic": false,
+                  "text": "Cooldown: 15s"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:cyan_dye",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:max_stack_size": 2,
+                "minecraft:custom_data": {
+                  "Trap": true
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 2147483647
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "#24A676",
+                  "text": "Trap"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "Place an almost invisible trap which"
+                },
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "explodes one second after another"
+                },
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "player steps on it"
+                },
+                {
+                  "color": "yellow",
+                  "italic": false,
+                  "text": "Cooldown: 10s"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:max_stack_size": 2,
+                "minecraft:custom_data": {
+                  "Boost": true
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 2147483647
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "#0392FF",
+                  "text": "Boost"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "Get 4 seconds of speed and jump boost"
+                },
+                {
+                  "color": "yellow",
+                  "italic": false,
+                  "text": "Cooldown: 15s"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:max_stack_size": 2,
+                "minecraft:custom_data": {
+                  "Warp": true
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 2147483647
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "#80FF00",
+                  "text": "Warp"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "Teleport to the closest player in a 30"
+                },
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "blocks radius"
+                },
+                {
+                  "color": "yellow",
+                  "italic": false,
+                  "text": "Cooldown: 30s"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:pumpkin_seeds",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:max_stack_size": 2,
+                "minecraft:custom_data": {
+                  "Gambling": true
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 2147483647
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "#FFFF85",
+                  "text": "Gambling"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "Get an useful random item, with a small"
+                },
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "chance of getting another power"
+                },
+                {
+                  "color": "yellow",
+                  "italic": false,
+                  "text": "Cooldown: 30s"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:max_stack_size": 2,
+                "minecraft:custom_data": {
+                  "Firework": true
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 2147483647
+                },
+                "minecraft:item_model": "minecraft:firework_rocket" 
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "#FF6B6B",
+                  "text": "Firework"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "Shoot a firework"
+                },
+                {
+                  "color": "yellow",
+                  "italic": false,
+                  "text": "Cooldown: 10s"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:honeycomb",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:max_stack_size": 2,
+                "minecraft:custom_data": {
+                  "BeeTrap": true
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 2147483647
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "#FFC300",
+                  "text": "BeeTrap"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "Shoot a bee that replaces the blocks"
+                },
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "with honey on impact and summons 3"
+                },
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "weak bees"
+                },
+                {
+                  "color": "yellow",
+                  "italic": false,
+                  "text": "Cooldown: 30s"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:clay_ball",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:can_break": [
+                  {
+                    "blocks": "glass"
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "Dome": true
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 2147483647
+                },
+                "minecraft:tool": {
+                  "default_mining_speed": 1,
+                  "rules": [
+                    {
+                      "speed": 3,
+                      "blocks": "glass"
+                    }
+                  ]
+                },
+                "minecraft:max_stack_size": 2
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "#E0E0E0",
+                  "text": "Dome"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "Create a dome out of glass around you,"
+                },
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "you can break glass holding the item"
+                },
+                {
+                  "color": "yellow",
+                  "italic": false,
+                  "text": "Cooldown: 30s"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

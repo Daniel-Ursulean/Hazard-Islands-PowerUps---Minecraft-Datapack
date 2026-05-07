@@ -1,0 +1,2 @@
+tellraw @p[distance=0.001..30,gamemode=!spectator] [{"text":"You will be warped to ","color":"#80FF00","underlined":true},{"selector":"@s","color":"#80FF00","underlined":true}]
+tag @p[distance=0.1..30,gamemode=!spectator] add EvolvedWarpTarget

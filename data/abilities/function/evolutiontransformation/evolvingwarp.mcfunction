@@ -1,0 +1,3 @@
+item replace entity @s weapon.mainhand with emerald[max_stack_size=2,item_name={"color":"#80FF00","text":"Evolved Warp"},lore=[{"color":"white","italic":false,"text":"Teleport the closest player in a 30"},{"color":"white","italic":false,"text":"blocks radius to you"},{"color":"yellow","italic":false,"text":"Cooldown: 40s"}],custom_data={EvolvedWarp:1b},consumable={consume_seconds:2147483647},enchantment_glint_override=true] 1
+playsound ui.toast.challenge_complete master @a ~ ~ ~ 1.0 2
+particle totem_of_undying ~ ~1 ~ 0.2 0.2 0.2 0.8 30 normal

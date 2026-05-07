@@ -1,0 +1,3 @@
+item replace entity @s weapon.mainhand with glistering_melon_slice[max_stack_size=2,item_name={"color":"#FF0000","text":"Evolved Heal"},lore=[{"color":"white","italic":false,"text":"Regenerate 6,5 hearts and get 2 bonus"},{"color":"white","italic":false,"text":"golden hearts"},{"color":"yellow","italic":false,"text":"Cooldown: 40s"}],custom_data={EvolvedHeal:1b},consumable={consume_seconds:2147483647},enchantment_glint_override=true] 1
+playsound ui.toast.challenge_complete master @a ~ ~ ~ 1.0 2
+particle heart ~ ~1 ~ 0.8 0.8 0.8 0.8 30 normal
